@@ -46,6 +46,21 @@ html ::-webkit-scrollbar-thumb {
 
 section {
   padding: 2rem 9%;
+  background-color: var(--primary-color);
+}
+
+.heading {
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: var(--secondary-color);
 }
 
 .btn {
@@ -141,6 +156,9 @@ section {
   }
 
   header {
+    padding: 2rem;
+  }
+  section {
     padding: 2rem;
   }
 }
@@ -258,4 +276,44 @@ section {
 .home .home-slider .swiper-slide-active .content > * {
   transform: translateY(0);
   opacity: 1;
+}
+
+.feature .feature-slider {
+  padding-bottom: 4rem;
+}
+.feature .feature-slider .box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+.feature .feature-slider .box .image {
+  height: 40rem;
+  width: 100%;
+  overflow: hidden;
+}
+.feature .feature-slider .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.feature .feature-slider .box:hover .image img {
+  transform: scale(1.2);
+}
+.feature .feature-slider .box .content {
+  padding: 1rem 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+.feature .feature-slider .box .content h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-color);
+  text-transform: uppercase;
+  background: var(--primary-color);
+  padding: 0.2rem;
+  margin-top: 0.5rem;
 }
