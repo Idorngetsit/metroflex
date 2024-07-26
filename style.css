@@ -317,3 +317,21 @@ section {
   padding: 0.2rem;
   margin-top: 0.5rem;
 }
+.feature .feature-slider .box .content .price {
+  height: 10rem;
+  width: 10rem;
+  line-height: 10rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  background: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--primary-color);
+  border: 0.3rem solid var(--primary-color);
+}
+.feature .feature-slider .box:hover .content .price {
+  background: var(--primary-color);
+  border: 0.3rem solid var(--secondary-color);
+  color: var(--secondary-color);
+}
