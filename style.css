@@ -369,7 +369,86 @@ section {
   font-size: 2rem;
   color: var(--secondary-color);
 }
+
 /* trainer section ends */
+
+/* footer secton starts */
+
+.footer {
+  /* background: var(--secondary-color); */
+  background-color: white;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  gap: 1.5rem;
+}
+.footer .box-container .box {
+  padding: 2rem;
+}
+.footer .box-container .box h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.footer .box-container .box .text {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  font-weight: normal;
+  line-height: 1.8;
+  padding-bottom: 1rem;
+}
+.footer .box-container .box .icon {
+  padding: 1rem 0;
+}
+.footer .box-container .box .icon a i {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  background: var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  color: var(--secondary-color);
+}
+.footer .box-container .box .icon a i:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: 0.2rem solid var(--primary-color);
+}
+.footer .box-container .box .icons a {
+  display: block;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+.footer .box-container .box .icons a i {
+  margin-right: 0.5rem;
+  color: red;
+}
+.footer .box-container .box .icons a:hover i {
+  padding-right: 2rem;
+  color: var(--primary-color);
+}
+.footer .box-container .box .icons a:hover {
+  color: red;
+}
+.footer .credit {
+  padding: 3rem 0;
+  text-align: center;
+  border-top: 0.1rem solid red;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: green;
+}
+.footer .credit span {
+  color: red;
+}
+
+/* footer section ends */
 
 /* media queries */
 
