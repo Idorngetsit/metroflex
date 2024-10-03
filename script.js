@@ -1,4 +1,3 @@
-
 // for header 
 
 let menu = document.querySelector('#menu-btn');
